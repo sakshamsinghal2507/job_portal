@@ -83,31 +83,25 @@ The dashboard provides real-time statistics:
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](screenshots/Job Portal Login.png)
-
+![Login Page](screenshots/login.png)
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.png)
-
+![Dashboard](screenshots/dashboard.png)
 
 ### Add Job Page
-![Add Job](screenshots/Add new job.png)
+![Add Job](screenshots/add-job.png)
 
+### Jobs Page
+![Jobs Page](screenshots/jobs.png)
 
 ### Jobs Listing
-![Jobs Listing](screenshots/Jobs Cards.png)
-
+![Jobs Listing](screenshots/jobs-list.png)
 
 ### Job Sorting Based on Location
-![Job Sorting](screenshots/Location Filter.png)
-
-
-### Job Page
-![Job Page](screenshots/Jobs.png)
-
+![Location Filter](screenshots/location-filter.png)
 
 ### Job Sorting Based on Salary
-![Job Sorting](screenshots/Salary Filter.png)
+![Salary Filter](screenshots/salary-filter.png)
 
 
 ## 👨‍💻 Author
