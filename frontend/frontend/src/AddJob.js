@@ -299,13 +299,11 @@ function AddJob() {
     // Invalid
     if (
 
-      isNaN(salary) ||
-
-      Number(salary) <= 0
+      !salary.trim()
 
     ) {
 
-      alert("Salary must be a valid positive number.");
+      alert("Please enter salary.");
 
       return;
 
