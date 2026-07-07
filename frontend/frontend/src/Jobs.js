@@ -269,7 +269,7 @@ function Jobs() {
     // Ask Jobs
     //    │
     // Backend
-    fetch("http://job-portal-weft.onrender.com/jobs", {
+    fetch("https://job-portal-weft.onrender.com/jobs", {
 
       headers: {
 
@@ -383,7 +383,7 @@ const deleteJob = (id) => {
   // Delete Job
   //     │
   // Backend
-  fetch(`http://job-portal-weft.onrender.com/delete-job/${id}`, {
+  fetch(`https://job-portal-weft.onrender.com/delete-job/${id}`, {
 
     // DELETE means
     // remove data.
@@ -592,7 +592,7 @@ const updateJob = () => {
   // Backend
   fetch(
 
-    `http://job-portal-weft.onrender.com/update-job/${editJob.id}`,
+    `https://job-portal-weft.onrender.com/update-job/${editJob.id}`,
 
     {
 

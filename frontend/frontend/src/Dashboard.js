@@ -164,7 +164,7 @@ function Dashboard() {
     // Request Jobs
     //   │
     // Backend
-    fetch("http://job-portal-weft.onrender.com/jobs", {
+    fetch("https://job-portal-weft.onrender.com/jobs", {
 
       // Send token
       // to backend.

@@ -351,7 +351,7 @@ function AddJob() {
       // Sends Job Details
       //    │
       // Backend
-      const response = await fetch("http://job-portal-weft.onrender.com/add-job", {
+      const response = await fetch("https://job-portal-weft.onrender.com/add-job", {
 
         // POST means
         // Send data.
