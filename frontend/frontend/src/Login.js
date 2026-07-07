@@ -107,7 +107,7 @@ function Login() {
       //
       // Backend checks database
       // and sends response back.
-      const response = await fetch("http://job-portal-weft.onrender.com/login", {
+      const response = await fetch("https://job-portal-weft.onrender.com/login", {
 
         // POST means
         // send data.
