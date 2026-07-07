@@ -111,7 +111,7 @@ function Register() {
       // Same here.
       //
       // React → Backend → Database
-      const response = await fetch("http://localhost:5000/register", {
+      const response = await fetch("http://job-portal-weft.onrender.com/register", {
 
         // POST means
         // send data.
