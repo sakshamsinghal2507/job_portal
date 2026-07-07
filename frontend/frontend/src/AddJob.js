@@ -582,7 +582,7 @@ function AddJob() {
 
         <input
 
-          type="number"
+          type="text"
 
           // Minimum allowed value.
           //
