@@ -5,7 +5,7 @@ import React, { useState } from "react";
 // Bring Link from react-router-dom.
 // Link helps us move from one page to another
 // without refreshing the website.
-import { Link } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 
 // Bring Login.css file.
 // This file gives design to Login page.
@@ -16,6 +16,8 @@ import "./Login.css";
 // Whenever Login page opens,
 // this function starts running.
 function Login() {
+
+  const navigate = useNavigate();
 
   // ----------------------------
   // EMAIL STATE
@@ -261,7 +263,7 @@ function Login() {
         // Here browser opens
         //
         // /dashboard
-        window.location.href = "/dashboard";
+        navigate("/dashboard");
 
       }
 
